@@ -1,0 +1,652 @@
+*
+{
+  box-sizing: border-box;
+}
+
+/* Start Header */
+.header
+{
+	background:url(../images/travel-25.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size: cover;
+	color:#fff;
+	font-weight: bolder;
+}
+
+a
+{
+	color:#fff;
+	text-decoration:none;
+}
+
+/* Start navbar */
+
+.navbar
+{
+	display: flex;
+	justify-content:space-between;
+	padding-top:30px; 
+	align-items:center;
+}
+.navbar > div
+{
+	display: flex;
+	justify-content:space-between;
+}
+
+/* End navbar */
+
+/* Start logo */
+
+.logo h1
+{
+	font-size: 42px;
+	border:5px solid #948C02;
+	padding:20px 10px;
+	margin: 0;
+}
+
+/* End Logo */
+
+/* Start pages */
+.pages
+{
+	padding-top:30px;
+}
+.pages li
+{
+	display: inline-block;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	border-right: 1px solid gray;
+}
+
+.pages li :hover
+{
+	color:#948C02;
+}
+.pages li:last-of-type
+{
+	border-right: none
+}
+
+.pages ul li:first-of-type a
+{
+	color:#948C02;
+}
+
+/* End pages */
+
+/* Start Social */
+
+.call-us
+{
+	border-right: 1px solid darkgray;
+	padding: 10px
+}
+
+.fa-phone
+{
+	transform:rotate(125deg);
+}
+
+.social 
+{
+	padding: 10px;
+}
+.social li
+{
+	display:inline-block;
+	padding:0 10px;
+}
+.social li :hover
+{
+	color:#948C02;
+}
+
+/* End Social */
+
+/* Start menu */
+
+.menu
+{
+	font-size:50px;
+}
+
+/* End menu */
+
+@media (max-width:600px)
+{
+	.pages
+	{
+		display:none;
+	}
+
+	.contact
+	{
+		display:none !important;
+	}
+
+	.menu
+	{
+		display:block !important;
+	}
+}
+
+@media (min-width:601px) and (max-width:768px)
+{
+	.pages
+	{
+		display:none;
+	}
+
+	.contact
+	{
+		display:none !important;
+	}
+
+	.menu
+	{
+		display:block;
+	}
+}
+
+@media (min-width:769px) and (max-width:1023px)
+{
+	.pages
+	{
+		display:none;
+	}
+
+	.contact
+	{
+		display:none !important;
+	}
+
+	.menu
+	{
+		display:block;
+	}
+
+	.call-us
+	{
+		border:none;
+	}
+}
+
+@media (min-width:1024px)
+{
+	.pages
+	{
+		display:block !important;
+	}
+
+	.menu
+	{
+		display:none !important;
+	}
+}
+/* Start header info */
+
+.header-info
+{
+	height:650px;
+	display: flex;
+	align-items:center;
+}
+.info
+{
+	width:70%;
+	margin: auto;
+	text-align: center;
+}
+
+.info h1
+{
+	font-size: 2.6em;
+	padding:20px 0;
+	font-family: 'Baloo Thambi', cursive;
+
+}
+
+.info button
+{
+	padding:10px 35px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	background:#948C02;
+	color:#fff;
+	border:none;
+	border-radius: 5px;
+	letter-spacing: 0.8px;
+	font-size: 18px;
+}
+
+
+/* End header info */
+
+/* End Header */
+
+/* Start Content */
+
+.ads
+{
+	text-align: center;
+	padding:50px 0 40px 0;
+}
+
+.images
+{
+	padding:20px 0 40px 0;
+	width: 90%;
+	display: flex;
+	justify-content:space-between;
+	text-align: center;
+}
+
+.images .travel
+{
+	width:30%
+}
+
+.images .travel div:nth-of-type(2)
+{
+	padding:20px 0;
+}
+
+.images .travel span
+{
+	font-weight: bold;
+}
+
+.images .travel p
+{
+	padding:0 15px;
+	color:#C8C8C8;
+}
+
+.images .travel button
+{
+	padding:20px;
+	text-transform: uppercase;
+	background:#948C02;
+	color:#fff;
+	border:none;
+	font-size: 18px;
+}
+
+@media (max-width:768px)
+{
+	.images
+	{
+		flex-direction:column;
+	}
+	.travel
+	{
+		width:100% !important;
+	}
+}
+
+
+@media (min-width:769px) and (max-width:1023px)
+{
+	.images
+	{
+		flex-direction:row;
+		flex-wrap: wrap;
+		text-align: center
+	}
+
+	.travel
+	{
+		width:49% !important;
+	}
+	.travel:last-of-type
+	{
+		margin:auto;
+	}
+}
+
+@media (min-width:1024px)
+{
+	.pages
+	{
+		display:block !important;
+	}
+
+	.menu
+	{
+		display:none !important;
+	}
+}
+/* End Content */
+
+/* Start Content 2 */
+
+.content2
+{
+	color:#fff;
+	background:url(../images/travel-5.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-bottom: 70px;
+}
+
+.sale
+{
+	text-align: center;
+	width: 90%;
+	margin: auto;
+	padding:50px 0;
+}
+
+.state
+{
+	width: 90%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.state > div
+{
+	width: 45%;
+	margin: 1%;
+}
+.state > div h1
+{
+	font-size:7em;
+	padding-bottom:10px;
+}
+.ads2
+{
+	padding:15px 0;
+	background:#F5F5F5;
+	text-align: center;
+	font-size:24px;
+}
+.ads3
+{
+	padding:15px 0;
+	text-align: center;
+	font-size:24px;
+}
+
+@media (max-width:600px)
+{
+	.state
+	{
+		flex-direction:column;
+		flex-wrap: nowrap;
+		justify-content:none;
+
+	}
+	.state > div
+	{
+		width:100% !important;
+	}
+}
+
+/* End Content 2*/
+
+/* Start Content 3*/
+.content3
+{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 40px;
+}
+
+.gallery
+{
+	width:80%;
+	display:flex;
+	justify-content:space-between;
+	flex-wrap: wrap;
+}
+
+.gallery div
+{
+	width: 31%;
+	margin: 1%;
+}
+
+@media (max-width:600px)
+{
+
+	.gallery > div
+	{
+		width:100% !important;
+	}
+}
+
+@media (min-width:601px) and (max-width:768px)
+{
+
+	.gallery > div
+	{
+		width:48% !important;
+	}
+
+	.gallery > div:last-of-type
+	{
+		margin:auto;
+	}
+}
+
+@media (min-width:769px) and (max-width:1023px)
+{
+
+	.gallery > div
+	{
+		width:48% !important;
+	}
+
+	.gallery > div:last-of-type
+	{
+		margin:auto;
+	}
+}
+/* End Content 3*/
+
+/* Start Content 4*/
+
+.content4
+{
+	padding: 30px 0 0 0;
+}
+
+.img-info 
+{
+	display:flex;
+}
+
+.img-info div
+{
+	width:50%;
+}
+.img-info1
+{
+	padding:6% 3%;
+	text-align: center;
+	background:#F5F5F5
+}
+
+.img-info1 h1
+{
+	font-size: 28px;
+	padding-bottom: 35px;
+	font-weight: bold
+}
+
+.img-info1 p
+{
+	text-align: center;
+	line-height: 2em;
+}
+
+.img-info1 button
+{
+	padding:20px;
+	text-transform: uppercase;
+	background:#948C02;
+	color:#fff;
+	border:none;
+	font-size: 18px;
+}
+
+@media (max-width:768px)
+{
+	.img-info
+	{
+		flex-direction: column;
+	}
+
+	.img-info div
+	{
+		width:100%;
+	}
+}
+
+
+/* End Content 4*/
+
+
+/* Start footer */
+
+.footer
+{
+	background:#1C1C1C;
+	display: flex;
+	justify-content: space-around;
+	color: #fff;
+	padding:30px;
+}
+
+.fr-1
+{
+	width:28%;
+	height:80%;
+	padding:10px;
+}
+
+.logo-ft
+{
+	padding:20px 0;
+}
+.fr-1 .logo-ft  a
+{
+	
+	font-size: 42px;
+	border:5px solid #948C02;
+	padding:20px 10px;
+	margin: 0;
+}
+
+	
+
+.ft-contact p:first-of-type
+{
+	line-height: 1.5em;
+	font-family: 'Baloo Thambi', cursive;
+	text-align:justify;
+}
+
+.fr-1 .ft-contact
+{
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.fr-1 .ft-contact .fas
+{
+	display: inline-block;
+}
+
+.fr-1 .ft-contact li  p
+{
+	display: inline-block;
+	word-break: break-all;
+}
+
+
+.fr-1 h2
+{
+	padding:20px 0 10px 0;
+	font-size:18px
+}
+
+.fr-1 li
+{
+	padding-top: 20px;
+}
+.ft-contact li
+{
+	padding:none;
+}
+
+.copyright
+{
+	padding:20px 0;
+	text-align:center;
+	background:#242424;
+	color:#fff;
+}
+
+@media (max-width:768px)
+{
+	.footer
+	{
+		flex-direction: column;
+	}
+	.fr-1
+	{
+		width:80%;
+	}
+	.fr-1 .logo
+	{
+		width:24%;
+	}
+
+}
+
+@media (min-width:769px) and (max-width:1023px)
+{
+	.footer
+	{
+		flex-direction: row !important;
+		flex-wrap:wrap;
+	}
+
+	.fr-1
+	{
+		width:45% !important;
+	}
+}
+
+/* End footer */
+
+
+/*Start my fram work*/
+ul
+{
+  list-style-type: none;
+  margin:0;
+  padding:0
+}
+h1
+{
+  margin:0;
+  padding:0;
+}
+
+
+.container
+{
+	margin: 0 5%;
+}
+/*End my fram work*/
